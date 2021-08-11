@@ -42,7 +42,7 @@ var file2id;
 var applicationError = "No Error ";
 // connecting database to url
 // mongoose.connect("mongodb+srv://admin-wcespace:WCESpace150401@cluster0.5htuy.mongodb.net/User",{useUnifiedTopology: true,useNewUrlParser: true});
-mongoose.connect("mongodb://admin-wcespace:WCESpace150401@cluster0-shard-00-00.5htuy.mongodb.net:27017,cluster0-shard-00-01.5htuy.mongodb.net:27017,cluster0-shard-00-02.5htuy.mongodb.net:27017/User?ssl=true&replicaSet=atlas-rps98p-shard-0&authSource=admin&retryWrites=true&w=majority",{useUnifiedTopology: true,useNewUrlParser: true});
+mongoose.connect("mongodb://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",{useUnifiedTopology: true,useNewUrlParser: true});
 // mongoose.connect('mongodb://localhost:27017/User',{ useUnifiedTopology: true , useNewUrlParser: true});
 
 const userSchema = new mongoose.Schema({
@@ -101,10 +101,10 @@ const Otp = mongoose.model("Otp",otpSchema);
 const userVerification = mongoose.model("userVerification",verifySchema);
 
 // contribute 
-const CLIENT_ID = '77209510481-bl5aua8mgq1j86ahrr596qblqgr6mpb1.apps.googleusercontent.com';
-const CLIENT_SECRENT = 'VZVjdR-gXIYDd1AmGCPAikt7';
+const CLIENT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+const CLIENT_SECRENT = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04m4nOQenv9UpCgYIARAAGAQSNwF-L9Ir16liWPaawKXdlt70gvFoFgvd3vGp2NMGyHcmWaBKMNjgL4qvDzraGN4-apLZXMwelqo';
+const REFRESH_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 const email = "wcespace1947@gmail.com";
 const apis = google.getSupportedAPIs();
 
