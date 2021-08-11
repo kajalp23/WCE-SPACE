@@ -30,8 +30,8 @@ app.set('view engine' , 'ejs');
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'sample@gmail.com',
-      pass: 'sample@123'
+      user: 'sample@gmail.com', // here comes gmail address to send email
+      pass: 'sample@123'   // here comes gmail password 
     }
   });
 // booksname
