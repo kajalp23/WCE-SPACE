@@ -30,8 +30,8 @@ app.set('view engine' , 'ejs');
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'wcespace1947@gmail.com',
-      pass: 'Rohit@45'
+      user: 'sample@gmail.com',
+      pass: 'sample@123'
     }
   });
 // booksname
